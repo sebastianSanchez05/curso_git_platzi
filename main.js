@@ -9,8 +9,17 @@ app.set('views', `${path}/views`);
 
 app.use(express.static(`${path}/public`));
 
+// Rutas
 app.get('/', (req, res) => {
     res.render('index', { titlePage: 'Pagina de inicio' })
+});
+
+app.get('/inicio', (req, res) => {
+    res.render('index', { titlePage: 'Pagina de inicio' })
+});
+
+app.get('/profesores', (req, res) => {
+    res.render('profesores', { titlePage: 'Profesores' })
 });
 
 // Para rutas no encontradas
