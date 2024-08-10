@@ -1,0 +1,17 @@
+{
+  "name": "cursogit",
+  "version": "1.0.0",
+  "description": "Este curso de git y github de platzi es para probar la herramienta, para probar adecuadamente se hara una pequeña pagina con ejs y express",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  }
+}
