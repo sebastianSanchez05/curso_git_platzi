@@ -1,5 +1,5 @@
-import Express from 'express';
+import express from 'express';
 
-const app = Express();
+const app = express();
 
-app.listen(3005);
+app.listen(3005, () => console.log('Servidor corriendo http://localhost:3005'));
