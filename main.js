@@ -27,4 +27,4 @@ app.use((req, res, next) => {
     res.status(404).sendFile(`${path}/public/404.html`)
 });
 
-app.listen(3005, console.log('Servidor corriendo http://localhost:3005'));
+app.listen(3005, '0.0.0.0', console.log('Servidor corriendo http://localhost:3005 o http://192.168.18.6:3005'));
